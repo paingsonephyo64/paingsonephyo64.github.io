@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(142, 128, 68);
+    margin: 0;
+    
+}
+*{
+    text-align: center;
+
+}
+.mainbody{
+    text-align: center;
+    display: inline-block;
+    border:1px white solid;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+    margin:  100px 0;
+}
+    
+.input1 ,.remember{
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    padding: 10px;
+
+}
+.remember a{
+    float: right;
+}
+.input1 input{
+    padding: 10px;
+    width: 260px;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 10px;
+    outline: none;
+    border: 1px black solid;
+}
+.input1 input:focus
+  {
+        border-color: aqua;
+  }
+
+.btn button{
+    border-radius: 5px;
+    background-color: rgb(142, 128, 68);
+    width: 275px;
+    border-color: rgb(142, 128, 68);
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.foot{
+    display: inline-block;
+    margin: center;
+}
