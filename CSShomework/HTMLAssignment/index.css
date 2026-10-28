@@ -3,21 +3,43 @@ body{
 }
 @media(max-width: 600px){
     body{
-        margin: 20px auto;
-        padding: 16px;
-        font-size: 20px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    table{
+        max-width: 100%;
+        height: auto;
+    }
+    image{
+        max-width: 100%;;
+        height: auto;
+    }
+    h1{
+    font-size: 25px;
+    }
+     h2{
+    font-size: 22px;
+    }
+    a{
+        padding: 8px;
+        margin: 3px;
+        font-size: 14px;
+    }
+    input, textarea{
+        max-width: 100%;
+        box-sizing:border-box;
     }
 }
-a{
+a{  
+    display: inline-block;
     border-radius: 5px;
     border-color: black;
     background-color: rgb(47, 120, 255);
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: white;
     border: 1px solid black;
 }
 a:hover{
     background-color: red;
-    border-color: black;
 }
