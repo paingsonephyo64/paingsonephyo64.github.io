@@ -10,7 +10,6 @@
 :root{
     --primary: #7C3AED;
     --deep-purple: #1E1B4B;
-    /* --background: #0F172A; */
     --text-light: #F8FAFC;
     --light-purple: #C4B5FD;
     --logo-blue: #7C3AED;
@@ -45,6 +44,7 @@
     color: var(--text-light);
     font-weight: bold;
     position: relative;
+    font-size: 17px;
 
 }
 
@@ -79,6 +79,7 @@
     background-color: white;
     box-sizing: border-box;
     padding: 20px 32px;  
+    font-size: 15px;
 }
 .search_icon{
     position: absolute;
@@ -216,6 +217,7 @@
     justify-content: center;
     background-color: var(--deep-purple);
     padding: 20px 0px;
+    font-size: 17px;
 }
 .footer_1{
     display: flex;
@@ -256,6 +258,7 @@
 .footer_2 a{
     text-decoration: none;
     color: var(--text-light);
+    font-size: 17px;
 }
 .footer_2 a:hover{
     color: var(--primary);
@@ -420,6 +423,7 @@
     box-sizing: border-box;
     gap: 30px;
     background-color: var(--background);
+
 }
 .detail_1{
     flex: 3;
@@ -490,9 +494,9 @@
     padding: 20px;
 }
 .detail_2child h1{
-    color: var(--light-purple);
+    color: var(--primary);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 10px;
 }
 .detail_2child p{
@@ -546,7 +550,7 @@
     text-align: center;
     padding: 10px 0px;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 25px;
 }
 .chapters{
     display: flex;
@@ -699,10 +703,11 @@
     font-size: 25px;
 }
 .contact_child h3{
-    font-size: 20px;
+    font-size: 25px;
 }
 .contact_child p{
     padding: 10px 0px;
+    font-size: 20px;
 }
 .contact_child span{
     padding: 0px 10px;
@@ -770,6 +775,9 @@
     background-color: var(--background);
     color: var(--text-light);
 }
+.feedback_child h1{
+    font-size: 25px;
+}
 .feedback_parent{
     border: 1px var(--deep-blue) solid;
     background-color: var(--deep-blue);
@@ -786,12 +794,14 @@
      width: 100%;
      padding: 20px;
      justify-content:flex-start;
+     font-size: 17px;
 }
 .feedback_child1 input {
      text-align: start;
      width: 25%;
      height: 40px;
      border-radius: 5px;
+     font-size: 17px;
      outline: none;
      border: 1px var(--deep-blue) solid;
      color: var(--background);
@@ -808,6 +818,7 @@
      color: var(--background);
      background-color: var(--text-light);
      padding:0 10px;
+     font-size: 20px;
 }
 .feedback_child1 textarea{
     width: 30%;
@@ -818,6 +829,7 @@
     outline: none;
     border: 1px var(--deep-blue) solid;
     padding: 10px;
+    font-size: 17px;
 }
 .feedback_child1 h3{
     padding-bottom: 10px;
@@ -835,6 +847,7 @@
      width: 100px;
      padding:15px;
      font-weight: bold;
+     font-size: 17px;
 }
 .feedback_child2 button:hover{
     color: var(--primary);
